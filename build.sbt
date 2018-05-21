@@ -10,6 +10,7 @@ libraryDependencies ++= Seq(
   "com.sksamuel.avro4s" %% "avro4s-core" % "1.8.3",
   "com.sksamuel.avro4s" %% "avro4s-json" % "1.8.3",
   "com.snowplowanalytics" %% "snowplow-scala-analytics-sdk" % "0.3.0",
+  "jp.co.bizreach" %% "aws-s3-scala" % "0.0.13",
 )
 
 libraryDependencies ++= Seq(

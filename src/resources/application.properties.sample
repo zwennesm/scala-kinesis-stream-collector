@@ -6,5 +6,3 @@ kinesis.stream-name = kinesis-stream-name
 aws.region = us-east-1
 aws.access-key = <ACCESS_KEY>
 aws.secret-key = <SECRET_KEY>
-
-storage.max-records = 1000

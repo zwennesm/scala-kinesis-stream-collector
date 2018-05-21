@@ -9,6 +9,7 @@ case class CustomConfig(
   region: String,
   accessKey: String,
   secretKey: String,
+  bucketName: String,
 )
 
 object CustomConfig {
@@ -20,7 +21,8 @@ object CustomConfig {
       interval = raw.getInt("kinesis.batch-interval"),
       region = raw.getString("aws.region"),
       accessKey = raw.getString("aws.access-key"),
-      secretKey = raw.getString("aws.secret-key")
+      secretKey = raw.getString("aws.secret-key"),
+      bucketName = raw.getString("aws.bucket")
     )
   }
 }
